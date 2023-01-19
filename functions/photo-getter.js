@@ -1,3 +1,5 @@
+const fetch = require("node-fetch")
+
 // code adapted from montezume and their images.js gist:
 // https://gist.github.com/montezume/a4fb62d949d67549b952afd2872e8113#file-images-js
 

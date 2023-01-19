@@ -31,6 +31,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@netlify/framework-info", "npm:9.7.1"],\
             ["autoprefixer", "virtual:0c895370edd05b14bd5e9912f356e951eb6ae93b5e47324f7e59e2e67748fb0f47318ea02d1d10933f843780042c477ab1f900bce1b9ca41844c5ee610bc1be2#npm:10.4.13"],\
             ["netlify-cli", "npm:12.7.2"],\
+            ["node-fetch", "virtual:1811160047d7e0f7e43f371e07920c11204416dd6ae0b8461e04538b2f68e9167aca28b60b34dbd287674a5cdd52bd05be5797bbe2f7de916231958cb58055fb#npm:2.6.8"],\
             ["parcel", "virtual:0c895370edd05b14bd5e9912f356e951eb6ae93b5e47324f7e59e2e67748fb0f47318ea02d1d10933f843780042c477ab1f900bce1b9ca41844c5ee610bc1be2#npm:2.8.2"],\
             ["postcss", "npm:8.4.21"],\
             ["process", "npm:0.11.10"],\
@@ -4756,6 +4757,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@netlify/framework-info", "npm:9.7.1"],\
             ["autoprefixer", "virtual:0c895370edd05b14bd5e9912f356e951eb6ae93b5e47324f7e59e2e67748fb0f47318ea02d1d10933f843780042c477ab1f900bce1b9ca41844c5ee610bc1be2#npm:10.4.13"],\
             ["netlify-cli", "npm:12.7.2"],\
+            ["node-fetch", "virtual:1811160047d7e0f7e43f371e07920c11204416dd6ae0b8461e04538b2f68e9167aca28b60b34dbd287674a5cdd52bd05be5797bbe2f7de916231958cb58055fb#npm:2.6.8"],\
             ["parcel", "virtual:0c895370edd05b14bd5e9912f356e951eb6ae93b5e47324f7e59e2e67748fb0f47318ea02d1d10933f843780042c477ab1f900bce1b9ca41844c5ee610bc1be2#npm:2.8.2"],\
             ["postcss", "npm:8.4.21"],\
             ["process", "npm:0.11.10"],\

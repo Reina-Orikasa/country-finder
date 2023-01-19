@@ -4105,6 +4105,7 @@ __metadata:
     "@netlify/framework-info": ^9.7.1
     autoprefixer: ^10.4.13
     netlify-cli: ^12.7.2
+    node-fetch: 2
     parcel: ^2.8.2
     postcss: ^8.4.21
     process: ^0.11.10
@@ -8906,7 +8907,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-fetch@npm:^2.3.0, node-fetch@npm:^2.6.0, node-fetch@npm:^2.6.7":
+"node-fetch@npm:2, node-fetch@npm:^2.3.0, node-fetch@npm:^2.6.0, node-fetch@npm:^2.6.7":
   version: 2.6.8
   resolution: "node-fetch@npm:2.6.8"
   dependencies:
