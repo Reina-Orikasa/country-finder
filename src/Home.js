@@ -14,8 +14,6 @@ export function Home() {
     fetchCountry();
   }, []);
 
-  console.log(countryData.capital)
-
   return (
     <div>
       <div className="text-center bg-1 py-4">
@@ -38,20 +36,20 @@ export function Home() {
           />
         </div>
       </div>
-      <div className="py-4 bg-pink-500 text-center text-white h-full">
+      <div className="py-4 text-center text-white h-full">
         <h3 className="text-4xl font-light">Featured Country</h3>
         <h2 className="text-6xl font-bold mb-4">Switzerland</h2>
-        <div className="flex justify-center align-middle">
-           <img
-          className="rounded-xl w-2/3 mb-4"
-          src="https://images.unsplash.com/photo-1521292270410-a8c4d716d518?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-        /> 
+        <div className="flex justify-center align-middle bg-2">
+          <img
+            className="rounded-xl w-2/3"
+            src="https://images.unsplash.com/photo-1521292270410-a8c4d716d518?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+          />
         </div>
-        
-        <h3 className="text-4xl font-semibold">Quick Facts</h3>
-        <h4 className="text-2xl">Region: {countryData.region}</h4>
-        <h4>Capital: {countryData.capital}</h4>
-        <h4>Population: {countryData.population}</h4>
+
+        <h2 className="text-6xl font-semibold mt-4">Quick Facts</h2>
+        <h3 className="text-4xl">Region: {countryData.region}</h3>
+        <h3 className="text-4xl">Capital: {countryData.capital}</h3>
+        <h3 className="text-4xl">Population: {countryData.population}</h3>
       </div>
     </div>
   );
